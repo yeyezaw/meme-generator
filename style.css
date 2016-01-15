@@ -1,0 +1,31 @@
+body{
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+}
+
+.meme-col{
+    width: 50%;
+    height: 400px;
+}
+
+.pic-gen{
+    width: 95%;
+    height: 350px;
+    position: absolute;
+}
+
+.meme h1{
+    position: relative;
+}
+
+.top-text,.bottom-text{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.bottom-text{
+    margin-top: 250px;
+}
