@@ -26,6 +26,6 @@ body{
     text-align: center;
 }
 
-.bottom-text{
-    margin-top: 250px;
+.top-text{
+    padding-bottom: 220px;
 }
