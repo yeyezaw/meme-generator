@@ -1,3 +1,6 @@
+/* Issue: image went down when pressed backspace in top-text input */
+/* Credit to 'Trevor Waddell' for bug fix */
+
 body{
     font-family: Raleway;
     margin: 0;
@@ -9,14 +12,30 @@ body{
     height: 400px;
 }
 
+.meme{
+    position: relative;
+    height: 350px;
+}
+
+.meme h1{
+    position: absolute;  
+    transform: translateX(-50%);  /* center in .meme */
+    left: 50%;       /* center in .meme */
+}
+
 .pic-gen{
     width: 95%;
     height: 350px;
     position: absolute;
 }
 
-.meme h1{
-    position: relative;
+h1.top-text{
+    /* position: relative; */
+    top: 0;
+}
+
+h1.bottom-text{
+    bottom: 0;
 }
 
 .top-text,.bottom-text{
@@ -24,8 +43,4 @@ body{
     font-weight: bold;
     color: #fff;
     text-align: center;
-}
-
-.top-text{
-    padding-bottom: 220px;
 }
